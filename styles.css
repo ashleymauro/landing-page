@@ -26,7 +26,7 @@ body {
 }
 
     .navbar h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: bold;
     color: #F9FAF8;
     margin: auto;
@@ -67,12 +67,13 @@ body {
 /* hero */
 
 .hero {
+    font-size: 25px;
     display: flex;
-    color: #F9FAF8;
+    color: #FFFFFF;
     background-color: #5d7560;
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 60px;
 }
     .heroleft {
         flex-basis: 400px;
@@ -86,6 +87,18 @@ body {
         font-size: 18px;
         color: lightgray;
     }
+
+
+/* This website is awesome size
+    (currently in .hero)
+
+    .heroleft h1 {
+        font-size: 50px;
+    }
+
+*/
+
+
 
 .hero button {
     display: block;
@@ -115,8 +128,7 @@ body {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-
-
+    
 }
 
 
@@ -137,15 +149,16 @@ body {
 
 }
 
-.content, .contentinfo {
+.contentinfo, .contentinfo2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.contentinfo img {
-    width: 180px;
-    height: 180px;
+.contentinfo img,
+.contentinfo2 img {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 6px double lightgray;
     border-radius: 12px;
@@ -158,7 +171,8 @@ body {
 }
 
 
-.contentinfo img:hover {
+.contentinfo img:hover,
+.contentinfo2 img:hover {
 
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -173,11 +187,12 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #e9e9e9;
-    padding: 0 200px;
+    padding: 10px 200px;
+    margin: 20px 0px 0px 0px;
 }
 
 .quote p {
-    font-size: 26px;
+    font-size: 24px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
@@ -185,7 +200,7 @@ body {
 }
 
 .quote b {
-    font-size: 20px;
+    font-size: 18px;
     color: #1F2937;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -197,7 +212,6 @@ body {
 /* sign up */
 
 .signup {
-
     background-color: #5d7560;
     margin: 50px 200px;
     padding: 10px 80px;
